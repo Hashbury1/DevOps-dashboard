@@ -7,8 +7,8 @@ To understand the Git branching and merging demonstrations, you can:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[Your GitHub Username]/[Your Repository Name].git
-    cd [Your Repository Name]
+    git clone https://github.com/Hashbury1/DevOps-dashboard.git
+    cd DevOps-dashboard
     ```
 
 2.  **View the Branch History:** Use Git commands to explore the different branches created and the history of merges.
@@ -20,7 +20,7 @@ To understand the Git branching and merging demonstrations, you can:
 3.  **Checkout Different Branches:** Switch between the branches to see the state of the project at different stages.
     ```bash
     git checkout main        # Switch to the main branch
-    git checkout feature-a   # Switch to the feature-a branch
+    git checkout feature/server-status   # Switch to the feature/server-status branch
     # ... and so on for other branches
     ```
 
@@ -36,8 +36,6 @@ By exploring this repository, you should be able to understand and visualize:
 * Common branching workflows used in software development.
 * The process of merging branches and handling merge conflicts.
 * The importance of a well-structured Git history for collaboration and maintainability.
-
-## Further Exploration (Optional)
 
 * Experiment with different Git merge strategies.
 * Investigate the use of Git tags for marking releases.
